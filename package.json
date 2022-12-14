@@ -1,0 +1,13 @@
+{
+  "name": "agora",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "cd frontend && npm start"
+  },
+  "author": "sirius",
+  "license": "ISC"
+}

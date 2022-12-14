@@ -1,0 +1,50 @@
+.grid-container1 {
+    margin-top: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 300px;
+}
+
+.grid-container2 {
+    margin-top:20px;
+    display: grid;
+    margin: auto;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.comp1 {
+    width:290px;
+    height: 50px;
+    cursor: pointer;
+
+    text-align:center;
+    color: white;
+    background-image: linear-gradient(rgb(47, 214, 6), rgb(6, 85, 10));
+}
+
+.comp {
+    width:240px;
+    height: 115px;
+    cursor: pointer;
+
+    text-align:center;
+    color: white;
+}
+
+.active {
+    background-image: linear-gradient(rgba(84, 191, 233, 0.89), rgb(55, 148, 211));
+}
+
+.pending {
+    background-image: linear-gradient(rgb(32, 168, 216), rgb(32, 168, 216));
+}
+
+.finished {
+    background-image: linear-gradient(rgb(219, 62, 23), rgb(236, 65, 22));
+}
+
+.total {
+    background-image: linear-gradient(rgb(13, 102, 138), rgb(11, 40, 59));
+}
